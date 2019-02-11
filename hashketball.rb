@@ -181,3 +181,7 @@ end
 def biggest_shoes
   player.max_by do |shoes|
     shoes.fetch(:shoe)
+  end
+end
+
+def 
