@@ -179,4 +179,5 @@ def player_stats(name)
 end
 
 def biggest_shoes
-  player.max_
+  player.max_by do |shoes|
+    shoes.fetch(:shoe)
