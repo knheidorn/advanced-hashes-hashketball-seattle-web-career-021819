@@ -185,4 +185,5 @@ def biggest_shoes
 end
 
 def big_shoe_rebounds
-  biggest_shoes
+  biggest_shoes.fetch(:rebound)
+end
