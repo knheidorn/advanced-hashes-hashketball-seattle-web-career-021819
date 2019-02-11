@@ -178,4 +178,5 @@ def player_stats(name)
   end
 end
 
-def biggest_shoes(player)
+def biggest_shoes
+  player.max_
